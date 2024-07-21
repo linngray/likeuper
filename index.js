@@ -55,3 +55,8 @@ client.on('ready', async () => {
 });
 
 client.login(process.env.TOKEN);
+
+    otherLoop();
+});
+
+client.login(process.env.TOKEN);
