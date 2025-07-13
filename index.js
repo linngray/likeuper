@@ -1,7 +1,6 @@
 require('dotenv').config()
 const { Client } = require('discord.js-selfbot-v13')
 const client = new Client()
-const { keep_alive } = require("./keep_alive");
 
 client.on('ready', async () => {
     console.log(`Logged in as ${client.user.tag}!`)
